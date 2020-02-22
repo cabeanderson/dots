@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout color="#162837">
+      <row weight="5" color="#394548">
+	    <button icon="power" ontap="sleep" onhold="@wol" color="#5a1b1b"/>
+	    <button icon="config" ontap="cse"/>
+	    <button icon="folder" ontap="filebrowser" onhold="vidbrowser"/>
+	    <button icon="computer" ontap=""/>	
+      </row>
+      <space weight="1"/>
+	<row weight="12">
+	  <grid weight="4" color="#394548">
+	    <row>
+              <button icon="docclose" ontap="close"/>
+	    </row>
+	    <row>
+              <button icon="docright" ontap="nextdesk"/>
+	    </row>
+	  </grid>
+	  <space weight="1"/>
+	  <grid weight="13" color="#2e1e4b">
+	    <row weight="2">
+	      <button icon="previous" ontap="mpdprev" onhold="pgdown"/>
+	      <button icon="playpause" ontap="mpdpause" color="#64908a"/>
+	      <button icon="next" ontap="mpdnext" onhold="pgup"/>
+	    </row>
+	    <row weight="2">
+		<button icon="fullscreen" ontap="fullscreen"/>
+		<button text="space" ontap="space" />
+		<button image="cursor.png" ontap="input" />
+	    </row>
+	  </grid>
+	</row>
+
+      <space weight="1"/>
+	<row weight="15">
+	  <grid weight="4" color="#524259">
+	    <row>
+              <button text="web browser" ontap="webbrowser"/>
+	    </row>
+	    <row>
+              <button text="ncm" ontap="music"/>
+	    </row>
+	    <row>
+	      <button icon="docswitch" ontap="switchpc" onhold="switchpro"/>
+	    </row>
+	    <row>
+              <button text="proj power" ontap="projon" onhold="projoff"/>
+	    </row>
+	  </grid>
+	  <space weight="1"/>
+	  <grid weight="13" color="#394548">
+	    <row weight="2">
+	      <button text="esc" ontap="esc" />
+              <button icon="up" ontap="up" onhold="fup"/>
+	      <button icon="more" ontap="appswitch" />
+	    </row>
+	    <row weight="2">
+	      <button icon="left" ontap="left" onhold="fleft"/>
+	      <button icon="select" ontap="select" color="#64908a"/>
+	      <button icon="right" ontap="right" onhold="fright"/>
+	    </row>
+	    <row weight="2">
+		<button icon="back" ontap="back" />
+		<button icon="down" ontap="down" onhold="fdown"/>
+		<button icon="list" ontap="rmenu" />
+	    </row>
+	  </grid>
+	</row>
+	<space weight="1"/>
+	<row weight="3" color="#2e1e4b">
+	  <button icon="vdown" ontap="vol_down" />
+	  <button icon="vmute" ontap="mute" />    
+	  <button icon="vup" ontap="vol_up" />
+	</row>
+</layout>
+

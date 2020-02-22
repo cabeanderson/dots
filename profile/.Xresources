@@ -1,0 +1,55 @@
+! generic X defaults !
+!==============================================================================
+! fonts
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: true
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+Xcursor.theme: Ghost
+Xcursor.size: 16
+
+rofi.combi-modi:	drun,ssh
+rofi.theme:		sidetab
+rofi.font:		roboto 18
+
+st.alpha: 170
+st.font: Hack:size=12
+!#include </home/cabe/.cache/squash/x_colors>
+
+*.foreground:   #d8e7e8
+*.background:   #01090c
+*.cursorColor:  #D8DEE9
+*.color0: #01090C
+*.color1: #ffffff
+*.color2: #99C794
+*.color3: #FCD78D
+*.color4: #91B4F2
+*.color5: #C594c5
+*.color6: #11aaaa
+*.color7: #E2E8F2
+*.color8: #001c1c
+*.color9: #EC5f67
+*.color10: #99C794
+*.color11: #FAc863
+*.color12: #5FB3B3
+*.color13: #C594c5
+*.color14: #5FB3b3
+*.color15: #CDD3DE
+
+!rofi.color-window: #cc01090c	#5FB3B3   #FCD78D
+
+URxvt*foreground:   #e0dfe2
+URxvt*background:   [80]#0B121B
+URxvt*cursorColor:  #e0dfe2
+URxvt*borderColor:  [100]#0B121B
+URxvt.scrollBar: false
+URxvt.internalBorder:  6
+URxvt.geometry: 66x16
+URxvt.font: xft:Hack:size=12
+URxvt*depth: 32
+
+st*background: #ffffff

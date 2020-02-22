@@ -1,0 +1,2 @@
+@echo off
+  break>"C:\Users\cabe4\Google Drive\Automation\all light on\flash%time:~0,2%%time:~3,2%%time:~6,2%.txt"

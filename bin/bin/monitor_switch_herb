@@ -1,0 +1,18 @@
+#!/bin/bash
+intern=DisplayPort-0
+extern=HDMI-A-1
+
+if [ "$1" = "mon" ] ; then							\
+	xrandr --output "$extern" --off --output "$intern" --auto;	\
+fi;
+
+if [ "$1" = "pro" ] ; then						  	\
+	xrandr --output "$extern" --auto --output "$intern" --off;	\
+fi;
+
+if [ "$1" = "both" ] ; then						  	\
+	xrandr --output "$extern" --auto --output "$intern" --auto;	\
+fi;
+
+herbstclient detect_monitors
+

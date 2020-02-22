@@ -1,0 +1,42 @@
+browser "nohup firefox --new-tab %u &>/dev/null &"
+external-url-viewer "urlscan -dc"
+
+bind-key j down
+bind-key k up
+bind-key j next articlelist
+bind-key k prev articlelist
+bind-key J next-feed articlelist
+bind-key K prev-feed articlelist
+bind-key G end
+bind-key g home
+bind-key d pagedown
+bind-key u pageup
+bind-key l open
+bind-key h quit
+bind-key a toggle-article-read
+bind-key n next-unread
+bind-key N prev-unread
+bind-key D pb-download
+bind-key U show-urls
+bind-key x pb-delete
+bind-key ^t next-unread
+
+color listnormal color104 default
+color listfocus black color141 standout bold
+color listnormal_unread color159 default
+color listfocus_unread magenta default bold
+color info color23 black bold
+color article color141 default
+
+#browser linkhandler
+macro , open-in-browser
+macro t set browser "tsp youtube-dl --add-metadata -ic"; open-in-browser ; set browser linkhandler
+macro a set browser "tsp youtube-dl --add-metadata -xic -f bestaudio/best"; open-in-browser ; set browser 
+#linkhandler
+macro m set browser "setsid nohup mpv"; open-in-browser ; set browser linkhandler
+macro w set browser "w3m"; open-in-browser ; set browser linkhandler
+macro p set browser "dmenuhandler"; open-in-browser ; set browser linkhandler
+# c copies the link to the clipboard.
+# The line below is probably the skiddiest line I've ever written.
+macro c set browser "copy(){ echo $1 | xclip ;}; copy "; open-in-browser ; set browser linkhandler
+macro j set browser "mpd" ; open-in-browser ; set browser linkhandler

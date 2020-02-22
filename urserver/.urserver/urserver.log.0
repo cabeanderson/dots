@@ -1,0 +1,484 @@
+# Log file created/rotated Thursday, 20 Feb 20 13:20:13 GMT
+2020-02-20 13:20:13 (I) Manager: 192.168.1.224:52530: disconnected
+2020-02-20 13:21:38 (I) Manager: 192.168.1.224:52556: connected
+2020-02-20 13:21:38 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 13:21:38 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 13:21:38 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 13:21:38 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 13:21:38 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 13:25:53 (I) Manager: 192.168.1.224:52556: disconnected
+2020-02-20 13:36:43 (I) Manager: 192.168.1.224:52559: connected
+2020-02-20 13:36:43 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 13:36:43 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 13:36:43 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 13:36:43 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 13:36:43 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 13:39:03 (I) Manager: 192.168.1.224:52559: disconnected
+2020-02-20 13:40:31 (I) Manager: 192.168.1.224:52566: connected
+2020-02-20 13:40:31 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 13:40:31 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 13:40:31 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 13:40:31 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 13:40:31 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 13:43:53 (I) Manager: 192.168.1.224:52566: disconnected
+2020-02-20 13:46:45 (I) Manager: 192.168.1.224:52567: connected
+2020-02-20 13:46:45 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 13:46:45 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 13:46:45 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 13:46:45 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 13:46:45 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 13:48:53 (I) Manager: 192.168.1.224:52567: disconnected
+2020-02-20 14:21:22 (I) Manager: 192.168.1.224:52573: connected
+2020-02-20 14:21:22 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 14:21:22 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 14:21:22 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 14:21:22 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 14:21:22 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 14:26:53 (I) Manager: 192.168.1.224:52573: disconnected
+2020-02-20 14:27:50 (I) Manager: 192.168.1.224:52590: connected
+2020-02-20 14:27:50 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 14:27:50 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 14:27:50 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 14:27:50 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 14:27:50 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 14:30:03 (I) Manager: 192.168.1.224:52590: disconnected
+2020-02-20 14:32:53 (I) Manager: 192.168.1.224:52591: connected
+2020-02-20 14:32:53 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 14:32:53 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 14:32:53 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 14:32:53 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 14:32:53 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 14:35:13 (I) Manager: 192.168.1.224:52591: disconnected
+2020-02-20 14:36:33 (I) Manager: 192.168.1.224:52593: connected
+2020-02-20 14:36:33 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 14:36:33 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 14:36:33 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 14:36:33 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 14:36:33 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 14:38:53 (I) Manager: 192.168.1.224:52593: disconnected
+2020-02-20 14:39:40 (I) Manager: 192.168.1.224:52597: connected
+2020-02-20 14:39:40 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 14:39:40 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 14:39:40 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 14:39:40 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 14:39:40 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 15:17:13 (I) Manager: 192.168.1.224:52597: disconnected
+2020-02-20 15:19:24 (I) Manager: 192.168.1.224:53121: connected
+2020-02-20 15:19:24 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 15:19:24 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 15:19:24 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 15:19:24 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 15:19:24 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 15:25:13 (I) Manager: 192.168.1.224:53121: disconnected
+2020-02-20 15:28:55 (I) Manager: 192.168.1.224:53186: connected
+2020-02-20 15:28:55 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 15:28:55 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 15:28:55 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 15:28:55 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 15:28:55 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 15:44:03 (I) Manager: 192.168.1.224:53186: disconnected
+2020-02-20 15:44:41 (I) Manager: 192.168.1.224:53301: connected
+2020-02-20 15:44:41 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 15:44:41 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 15:44:41 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 15:44:41 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 15:44:41 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 15:50:00 (I) Manager: 192.168.1.224:53353: connected
+2020-02-20 15:50:00 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 15:50:00 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 15:50:00 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 15:50:00 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 15:50:00 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 15:50:23 (I) Manager: 192.168.1.224:53301: disconnected
+2020-02-20 15:58:36 (I) Discovery: discovery request from 192.168.1.224:55940
+2020-02-20 15:59:43 (I) Manager: 192.168.1.224:53353: disconnected
+2020-02-20 17:26:30 (I) Manager: 192.168.1.224:53573: connected
+2020-02-20 17:26:30 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 17:26:30 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 17:26:30 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 17:26:30 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 17:26:30 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 17:39:03 (I) Manager: 192.168.1.224:53573: disconnected
+2020-02-20 17:44:42 (I) Manager: 192.168.1.224:53577: connected
+2020-02-20 17:44:42 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 17:44:42 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 17:44:42 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 17:44:42 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 17:44:42 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 17:48:43 (I) Manager: 192.168.1.224:53577: disconnected
+2020-02-20 17:49:28 (I) Manager: 192.168.1.224:53582: connected
+2020-02-20 17:49:28 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 17:49:28 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 17:49:28 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 17:49:28 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 17:49:28 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 17:51:43 (I) Manager: 192.168.1.224:53582: disconnected
+2020-02-20 17:52:53 (I) Manager: 192.168.1.224:53583: connected
+2020-02-20 17:52:53 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 17:52:53 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 17:52:53 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 17:52:53 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 17:52:53 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 17:57:03 (I) Manager: 192.168.1.224:53583: disconnected
+2020-02-20 18:02:54 (I) Manager: 192.168.1.224:53585: connected
+2020-02-20 18:02:54 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 18:02:54 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 18:02:54 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 18:02:54 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 18:02:54 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 18:05:13 (I) Manager: 192.168.1.224:53585: disconnected
+2020-02-20 18:08:00 (I) Manager: 192.168.1.224:53592: connected
+2020-02-20 18:08:00 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 18:08:00 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 18:08:00 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 18:08:00 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 18:08:00 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 18:14:38 (I) Manager: 192.168.1.224:53605: connected
+2020-02-20 18:14:38 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 18:14:38 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 18:14:38 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 18:14:38 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 18:14:38 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 18:14:53 (I) Manager: 192.168.1.224:53592: disconnected
+2020-02-20 18:51:23 (I) Manager: 192.168.1.224:53605: disconnected
+2020-02-20 18:56:57 (I) Manager: 192.168.1.224:53641: connected
+2020-02-20 18:56:57 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 18:56:57 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 18:56:57 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 18:56:57 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 18:56:57 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 19:05:13 (I) Manager: 192.168.1.224:53641: disconnected
+2020-02-20 19:06:34 (I) Manager: 192.168.1.224:53652: connected
+2020-02-20 19:06:34 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 19:06:34 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 19:06:34 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 19:06:34 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 19:06:34 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 19:11:53 (I) Manager: 192.168.1.224:53652: disconnected
+2020-02-20 19:14:31 (I) Manager: 192.168.1.224:53659: connected
+2020-02-20 19:14:31 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 19:14:31 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 19:14:31 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 19:14:31 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 19:14:31 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 19:16:43 (I) Manager: 192.168.1.224:53659: disconnected
+2020-02-20 19:17:40 (I) Manager: 192.168.1.224:53663: connected
+2020-02-20 19:17:40 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 19:17:40 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 19:17:40 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 19:17:40 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 19:17:40 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 19:24:13 (I) Manager: 192.168.1.224:53663: disconnected
+2020-02-20 19:25:54 (I) Manager: 192.168.1.224:53668: connected
+2020-02-20 19:25:54 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 19:25:54 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 19:25:54 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 19:25:54 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 19:25:54 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 20:42:03 (I) Manager: 192.168.1.224:53668: disconnected
+2020-02-20 20:42:56 (I) Manager: 192.168.1.224:53743: connected
+2020-02-20 20:42:56 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 20:42:56 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 20:42:56 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 20:42:56 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 20:42:56 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 22:11:00 (I) Manager: 192.168.1.224:53852: connected
+2020-02-20 22:11:00 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 22:11:00 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 22:11:00 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 22:11:00 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 22:11:00 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 22:11:33 (I) Manager: 192.168.1.224:53743: disconnected
+2020-02-20 22:34:53 (I) Manager: 192.168.1.224:53852: disconnected
+2020-02-20 22:35:34 (I) Manager: 192.168.1.224:53881: connected
+2020-02-20 22:35:34 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 22:35:34 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 22:35:35 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 22:35:35 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 22:46:53 (I) Manager: 192.168.1.224:53881: disconnected
+2020-02-20 22:47:53 (I) Manager: 192.168.1.224:53889: connected
+2020-02-20 22:47:53 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 22:47:53 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 22:47:53 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 22:47:53 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 22:47:53 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 22:51:13 (I) Manager: 192.168.1.224:53889: disconnected
+2020-02-20 22:54:19 (I) Manager: 192.168.1.224:53900: connected
+2020-02-20 22:54:19 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 22:54:19 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 22:54:20 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 22:54:20 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 22:54:20 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 23:08:16 (I) Manager: 192.168.1.224:53916: connected
+2020-02-20 23:08:16 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 23:08:16 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 23:08:16 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 23:08:16 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 23:08:16 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 23:09:43 (I) Manager: 192.168.1.224:53900: disconnected
+2020-02-20 23:20:52 (I) Manager: 192.168.1.224:53928: connected
+2020-02-20 23:20:52 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 23:20:52 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 23:20:52 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 23:20:52 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 23:20:52 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 23:21:43 (I) Manager: 192.168.1.224:53916: disconnected
+2020-02-20 23:35:53 (I) Manager: 192.168.1.224:53928: disconnected
+2020-02-20 23:39:40 (I) Manager: 192.168.1.224:53944: connected
+2020-02-20 23:39:40 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 23:39:40 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 23:39:40 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 23:39:40 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 23:39:40 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 23:42:56 (I) Manager: 192.168.1.224:53958: connected
+2020-02-20 23:42:56 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 23:42:56 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 23:42:56 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 23:42:56 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 23:42:56 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 23:43:13 (I) Manager: 192.168.1.224:53944: disconnected
+2020-02-20 23:48:23 (I) Manager: 192.168.1.224:53958: disconnected
+2020-02-20 23:48:58 (I) Manager: 192.168.1.224:53965: connected
+2020-02-20 23:48:58 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 23:48:58 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 23:48:58 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 23:48:58 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 23:48:58 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 23:51:13 (I) Manager: 192.168.1.224:53965: disconnected
+2020-02-20 23:52:54 (I) Manager: 192.168.1.224:53966: connected
+2020-02-20 23:52:54 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 23:52:54 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 23:52:54 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 23:52:54 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 23:52:54 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 23:55:11 (I) Manager: 192.168.1.224:53968: connected
+2020-02-20 23:55:11 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 23:55:11 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 23:55:11 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 23:55:11 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 23:55:11 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-20 23:55:13 (I) Manager: 192.168.1.224:53966: disconnected
+2020-02-20 23:58:23 (I) Manager: 192.168.1.224:53968: disconnected
+2020-02-20 23:59:41 (I) Manager: 192.168.1.224:53972: connected
+2020-02-20 23:59:41 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-20 23:59:41 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-20 23:59:41 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-20 23:59:41 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-20 23:59:41 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 00:05:13 (I) Manager: 192.168.1.224:53972: disconnected
+2020-02-21 00:06:22 (I) Manager: 192.168.1.224:53982: connected
+2020-02-21 00:06:22 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 00:06:22 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 00:06:22 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 00:06:22 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 00:06:22 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 00:08:33 (I) Manager: 192.168.1.224:53982: disconnected
+2020-02-21 00:12:29 (I) Manager: 192.168.1.224:53984: connected
+2020-02-21 00:12:29 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 00:12:29 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 00:12:29 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 00:12:29 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 00:12:29 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 00:18:43 (I) Manager: 192.168.1.224:53984: disconnected
+2020-02-21 00:20:31 (I) Manager: 192.168.1.224:54002: connected
+2020-02-21 00:20:31 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 00:20:31 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 00:20:32 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 00:20:32 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 00:20:32 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 00:22:43 (I) Manager: 192.168.1.224:54002: disconnected
+2020-02-21 00:23:37 (I) Manager: 192.168.1.224:54003: connected
+2020-02-21 00:23:37 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 00:23:37 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 00:23:37 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 00:23:37 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 00:23:37 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 00:25:53 (I) Manager: 192.168.1.224:54003: disconnected
+2020-02-21 00:25:59 (I) Manager: 192.168.1.224:54010: connected
+2020-02-21 00:25:59 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 00:25:59 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 00:25:59 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 00:25:59 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 00:25:59 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 00:32:53 (I) Manager: 192.168.1.224:54010: disconnected
+2020-02-21 00:33:42 (I) Manager: 192.168.1.224:54013: connected
+2020-02-21 00:33:42 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 00:33:42 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 00:33:42 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 00:33:42 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 00:33:42 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 00:39:33 (I) Manager: 192.168.1.224:54013: disconnected
+2020-02-21 00:40:32 (I) Manager: 192.168.1.224:54046: connected
+2020-02-21 00:40:32 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 00:40:32 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 00:40:32 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 00:40:32 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 00:40:32 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 00:42:43 (I) Manager: 192.168.1.224:54046: disconnected
+2020-02-21 00:44:53 (I) Manager: 192.168.1.224:54052: connected
+2020-02-21 00:44:53 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 00:44:53 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 00:44:53 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 00:44:53 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 00:44:53 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 00:48:13 (I) Manager: 192.168.1.224:54052: disconnected
+2020-02-21 00:50:12 (I) Manager: 192.168.1.224:54058: connected
+2020-02-21 00:50:12 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 00:50:12 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 00:50:12 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 00:50:12 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 00:50:12 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 00:55:13 (I) Manager: 192.168.1.224:54058: disconnected
+2020-02-21 00:56:24 (I) Manager: 192.168.1.224:54062: connected
+2020-02-21 00:56:24 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 00:56:24 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 00:56:24 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 00:56:24 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 00:56:24 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 00:57:36 (I) Manager: 192.168.1.224:54072: connected
+2020-02-21 00:57:36 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 00:57:36 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 00:57:36 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 00:57:36 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 00:57:36 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 00:58:43 (I) Manager: 192.168.1.224:54062: disconnected
+2020-02-21 01:07:23 (I) Manager: 192.168.1.224:54072: disconnected
+2020-02-21 01:10:03 (I) Manager: 192.168.1.224:54075: connected
+2020-02-21 01:10:03 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 01:10:03 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 01:10:03 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 01:10:03 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 01:10:03 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 01:16:53 (I) Manager: 192.168.1.224:54075: disconnected
+2020-02-21 01:21:27 (I) Manager: 192.168.1.224:54095: connected
+2020-02-21 01:21:27 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 01:21:27 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 01:21:27 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 01:21:27 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 01:21:27 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 01:23:43 (I) Manager: 192.168.1.224:54095: disconnected
+2020-02-21 01:29:42 (I) Manager: 192.168.1.224:54100: connected
+2020-02-21 01:29:42 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 01:29:42 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 01:29:42 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 01:29:42 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 01:29:42 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 01:33:03 (I) Manager: 192.168.1.224:54100: disconnected
+2020-02-21 01:33:38 (I) Manager: 192.168.1.224:54105: connected
+2020-02-21 01:33:38 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 01:33:38 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 01:33:38 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 01:33:38 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 01:33:38 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 01:35:48 (I) Manager: 192.168.1.224:54106: connected
+2020-02-21 01:35:48 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 01:35:48 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 01:35:48 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 01:35:49 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 01:35:49 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 01:35:53 (I) Manager: 192.168.1.224:54105: disconnected
+2020-02-21 01:38:03 (I) Manager: 192.168.1.224:54106: disconnected
+2020-02-21 01:42:54 (I) Manager: 192.168.1.224:54110: connected
+2020-02-21 01:42:54 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 01:42:54 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 01:42:54 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 01:42:54 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 01:42:54 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 01:46:53 (I) Manager: 192.168.1.224:54110: disconnected
+2020-02-21 01:47:01 (I) Manager: 192.168.1.224:54112: connected
+2020-02-21 01:47:01 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 01:47:01 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 01:47:01 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 01:47:01 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 01:47:01 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 01:49:13 (I) Manager: 192.168.1.224:54112: disconnected
+2020-02-21 02:42:06 (I) Manager: 192.168.1.224:54139: connected
+2020-02-21 02:42:06 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 02:42:06 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 02:42:06 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 02:42:06 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 02:42:06 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 02:44:23 (I) Manager: 192.168.1.224:54139: disconnected
+2020-02-21 02:45:00 (I) Manager: 192.168.1.224:54150: connected
+2020-02-21 02:45:00 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 02:45:00 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 02:45:00 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 02:45:00 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 02:45:00 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 02:47:13 (I) Manager: 192.168.1.224:54150: disconnected
+2020-02-21 02:47:15 (I) Manager: 192.168.1.224:54187: connected
+2020-02-21 02:47:15 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 02:47:15 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 02:47:15 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 02:47:15 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 02:47:15 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 03:00:43 (I) Manager: 192.168.1.224:54187: disconnected
+2020-02-21 03:06:21 (I) Manager: 192.168.1.224:54210: connected
+2020-02-21 03:06:21 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 03:06:21 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 03:06:21 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 03:06:21 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 03:06:21 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 03:09:33 (I) Manager: 192.168.1.224:54210: disconnected
+2020-02-21 03:12:54 (I) Manager: 192.168.1.224:54216: connected
+2020-02-21 03:12:54 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 03:12:54 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 03:12:54 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 03:12:54 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 03:12:54 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 03:15:13 (I) Manager: 192.168.1.224:54216: disconnected
+2020-02-21 03:27:01 (I) Manager: 192.168.1.224:54221: connected
+2020-02-21 03:27:01 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 03:27:01 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 03:27:01 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 03:27:01 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 03:27:01 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 03:29:13 (I) Manager: 192.168.1.224:54221: disconnected
+2020-02-21 03:30:06 (I) Manager: 192.168.1.224:54225: connected
+2020-02-21 03:30:06 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 03:30:06 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 03:30:06 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 03:30:07 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 03:30:07 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 03:32:23 (I) Manager: 192.168.1.224:54225: disconnected
+2020-02-21 03:32:46 (I) Manager: 192.168.1.224:54236: connected
+2020-02-21 03:32:46 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 03:32:46 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 03:32:46 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 03:32:46 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 03:32:46 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 03:35:56 (I) Manager: 192.168.1.224:54238: connected
+2020-02-21 03:35:56 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 03:35:56 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 03:35:56 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 03:35:56 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 03:35:56 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 03:36:03 (I) Manager: 192.168.1.224:54236: disconnected
+2020-02-21 03:39:13 (I) Manager: 192.168.1.224:54238: disconnected
+2020-02-21 03:39:17 (I) Manager: 192.168.1.224:54240: connected
+2020-02-21 03:39:17 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 03:39:17 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 03:39:17 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 03:39:17 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 03:39:17 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 03:41:33 (I) Manager: 192.168.1.224:54240: disconnected
+2020-02-21 03:42:01 (I) Manager: 192.168.1.224:54242: connected
+2020-02-21 03:42:01 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 03:42:01 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 03:42:01 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 03:42:01 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 03:42:01 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 03:56:46 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 03:56:51 (I) Connection: android-80a30706a87fff51: starting new session
+2020-02-21 03:56:51 (I) Session: android-80a30706a87fff51: loading (Cabe.Main)
+2020-02-21 03:56:51 (I) Agent: loading: Cabe.Main
+2020-02-21 03:56:52 (I) Session: android-80a30706a87fff51: updating (Cabe.Main)
+2020-02-21 03:56:52 (I) Session: android-80a30706a87fff51: unloading (Cabe.Main)
+2020-02-21 04:00:08 (I) Manager: 192.168.1.224:54740: connected
+2020-02-21 04:00:08 (I) Connection: android-80a30706a87fff51: received valid handshake
+2020-02-21 04:00:08 (I) Connection: android-80a30706a87fff51: supports client nonce
+2020-02-21 04:00:08 (I) Connection: android-80a30706a87fff51: ignoring authentication
+2020-02-21 04:00:08 (I) Connection: android-80a30706a87fff51: syncing hash (-1601763939)
+2020-02-21 04:00:08 (I) Connection: android-80a30706a87fff51: updating fast capability (true)
+2020-02-21 04:00:13 (I) Manager: 192.168.1.224:54242: disconnected
+2020-02-21 04:02:23 (I) Manager: 192.168.1.224:54740: disconnected

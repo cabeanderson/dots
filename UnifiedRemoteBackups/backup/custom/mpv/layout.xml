@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout color="#424254">
+      <row weight="10">
+	<grid weight="4">
+	  <row>
+	    <button icon="power" ontap="sd" color="#cc2a41"/>
+            <button icon="config" ontap="cse" />
+	  </row>
+	  <row>
+	    <button icon="off" ontap="projblank" />
+	  </row>
+	  <row>
+            <button icon="docclose" ontap="close"/>
+	    <button text="CLOSE TAB" ontap="close_tab" />
+	  </row>
+	</grid>	
+	<grid weight="7">
+	  <row>
+            <button icon="previous" ontap="previous" color="#64908a"/>
+            <button icon="playpause" ontap="pause" weight="1.25" color="#64908a"/>
+	    <button icon="next" ontap="next" color="#64908a"/>
+	  </row>
+	  <row>
+	    <button text="MUSIC" ontap="music" />
+            <button icon="stop" ontap="stop" weight="1.25" color="#cc2a41"/>
+	    <button text="VIDEO" ontap="video" />	    
+	  </row>
+	</grid>
+      </row>
+      <space weight="1"/>
+	<row weight="15">
+	  <grid weight="4">
+	    <row>
+              <button icon="fullscreen" ontap="fullscreen" color="#351330"/>
+	    </row>
+	    <row>
+              <button icon="web" ontap="webbrowse" color="#351330"/>
+	    </row>
+	    <row>
+	      <button icon="favorite" ontap="projon" onhold="projoff" color="#351330"/>
+	    </row>
+	    <row>
+              <button icon="window" ontap="switchpc" onhold="switchpro" color="#351330"/>
+	    </row>
+	  </grid>
+	  <space weight="1"/>
+	  <grid weight="13">
+	    <row weight="2">
+	      <button icon="back" ontap="back" />
+              <button icon="up" ontap="up" />
+	      <button icon="more" ontap="input" />
+	    </row>
+	    <row weight="2">
+	      <button icon="left" ontap="left" />
+	      <button icon="select" ontap="select" color="#64908a"/>
+	      <button icon="right" ontap="right" />
+	    </row>
+	    <row weight="2">
+		<button text="ESC" ontap="esc" />
+		<button icon="down" ontap="down" />
+		<button icon="list" ontap="rmenu" />
+	    </row>
+	  </grid>
+	</row>
+	<space weight="1"/>
+	<row weight="3">
+	  <button icon="vdown" ontap="vol_down" />
+	  <button icon="vmute" ontap="mute" />    
+	  <button icon="vup" ontap="vol_up" />
+	</row>
+</layout>
+

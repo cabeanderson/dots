@@ -1,0 +1,20 @@
+
+/*
+	██████╗  ██████╗ ███████╗██╗
+	██╔══██╗██╔═══██╗██╔════╝██║
+	██████╔╝██║   ██║█████╗  ██║
+	██╔══██╗██║   ██║██╔══╝  ██║
+	██║  ██║╚██████╔╝██║     ██║
+	╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝
+
+	config.rasi
+	rofi configuration file
+*/
+
+configuration {
+	modi: "drun,ssh";
+	show-icons: true;
+	sidebar-mode: false;
+	font: "Roboto 18";
+}
+

@@ -1,0 +1,3 @@
+ sudo /mnt/archsteam/root.x86_64/bin/arch-chroot 
+/mnt/archsteam/root.x86_64/
+

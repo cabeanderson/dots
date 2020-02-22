@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <tabs>
+	<tab>
+    <row>
+        <button text="jriver" ontap="launch_jriver" />
+        <button text="play/pause" ontap="pause" />
+        <button text="stop" ontap="stop" />
+        <button text="next track" ontap="next" />
+        <button text="previous track" ontap="previous" />
+        <button text="proj on" ontap="@irsend,37735%2C340%2C171%2C22%2C21%2C22%2C21%2C22%2C21%2C22%2C22%2C21%2C21%2C22%2C21%2C22%2C21%2C22%2C21%2C22%2C21%2C22%2C22%2C21%2C21%2C22%2C21%2C22%2C64%2C22%2C64%2C22%2C21%2C22%2C21%2C22%2C64%2C22%2C64%2C22%2C65%2C22%2C64%2C22%2C21%2C22%2C21%2C22%2C65%2C22%2C21%2C22%2C21%2C22%2C21%2C22%2C21%2C22%2C22%2C21%2C64%2C22%2C64%2C22%2C21%2C22%2C64%2C22%2C1753" />
+        <button text="proj off" ontap="@irsend,37267 2C341 2C171 2C22 2C21 2C22 2C21 2C22 2C21 2C22 2C21 2C22 2C21 2C22 2C21 2C22 2C21 2C22 2C21 2C22 2C21 2C22 2C21 2C22 2C21 2C22 2C22 2C21 2C64 2C22 2C64 2C22 2C21 2C22 2C21 2C22 2C21 2C22 2C64 2C22 2C64 2C22 2C64 2C22 2C21 2C22 2C21 2C22 2C64 2C22 2C21 2C22 2C65 2C21 2C21 2C22 2C21 2C22 2C21 2C22 2C64 2C22 2C65 2C22 2C21 2C22 2C64 2C22 2C1753 2C117 2C389" />
+    </row>
+    <row>
+        <button text="volume up" ontap="vol_up" />
+        <button text="volume down" ontap="vol_down" />
+        <button text="mute" ontap="mute" />
+        <button text="subtitles" ontap="subs" />
+        <button text="fullscreen" ontap="fullscreen" />
+        <button text="zone switch" ontap="zone_switch" />
+
+    </row>
+
+    <row>
+        <button text="mouse / keyboard" ontap="input" />
+        <button text="up" ontap="up" />
+        <button text="down" ontap="down" />
+        <button text="left" ontap="left" />
+        <button text="Jriver Standard" ontap="sview" />
+        <button text="Jriver Theater" ontap="tview" />
+    </row>
+	<row>
+       <button text="right" ontap="right" />
+        <button text="select" ontap="select" />
+        <button text="J Search" ontap="jsearch" />
+		<button text="jriver view" ontap="sview" />
+        <button text="Playing Now" ontap="playing_now" />
+    </row>
+  </tab>
+  <tab>
+    <row>
+        <button text="jump back" ontap="jumpb" />
+        <button text="jump forward" ontap="jumpf" />
+        <button text="enter" ontap="enter" />
+        <button text="back" ontap="back" />
+		<button text="View Music" ontap="music" />
+        <button text="View Videos" ontap="video" />
+    </row>
+    <row>
+        <button text="shutdown" ontap="sd" />
+        <button text="task manager" ontap="cse" />
+        <button text="forward" ontap="forward" />
+        <button text="last tab" ontap="last_tab" />
+        <button text="close tab" ontap="close_tab" />
+		<button text="lights on" ontap="light_on" />
+		<button text="lights off" ontap="light_off" />
+    </row>
+    <row>
+      <button text="close window" ontap="af4" />
+      <button text="snap left" ontap="sleft" />
+      <button text="snap right" ontap="sright" />
+      <button text="switch to pc" ontap="switchpc" />
+      <button text="Project" ontap="switchpro" />
+      <button text="all lights on" ontap="all_light_on" />
+  		<button text="all lights off" ontap="all_light_off" />
+    </row>
+  </tab>
+  </tabs>
+</layout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <row>
+        <button text="switch jriver" ontap="switch_jriver" />
+        <button text="play/pause" ontap="pause" />
+        <button text="next track" ontap="next" />
+        <button text="previous track" ontap="previous" />
+    </row>
+    <row>
+        <button text="volume up" ontap="vol_up" />
+        <button text="volume down" ontap="vol_down" />
+        <button text="mute" ontap="mute" />
+        <button text="subtitles" ontap="subs" />
+        <button text="fullscreen" ontap="fullscreen" />
+        <button text="zone switch" ontap="zone_switch" />
+    </row>
+
+    <row>
+        <button text="mouse / keyboard" ontap="input" />
+        <button text="up" ontap="up" />
+        <button text="down" ontap="down" />
+        <button text="left" ontap="left" />
+        <button text="right" ontap="right" />
+        <button text="select" ontap="select" />
+    </row>
+    <row>
+        <button text="enter" ontap="enter" />
+        <button text="back" ontap="back" />
+        <button text="forward" ontap="forward" />
+        <button text="new tab" ontap="csn" />
+    </row>
+    <row>
+        <button text="shutdown" ontap="sd" />
+        <button text="task manager" ontap="cse" />
+        <button text="close window" ontap="af4" />
+        <button text="snap left" ontap="sleft" />
+        <button text="snap right" ontap="sright" />
+        <button text="switch to pc" ontap="switchpc" />
+        <button text="switch to projector" ontap="switchpro" />
+    </row>
+</layout>

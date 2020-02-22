@@ -1,0 +1,233 @@
+#!/usr/bin/env bash
+
+hc() {
+    herbstclient "$@"
+}
+
+hc emit_hook reload
+
+#xsetroot -solid '#565656'
+
+# remove all existing keybindings
+hc keyunbind --all
+
+# keybindings
+#Alt=Mod1    # Remap Mod1 name to Alt
+Mod=Mod4   # Use the super key as the main modifier
+
+hc keybind $Mod-Shift-q quit
+hc keybind $Mod-Shift-r reload
+hc keybind $Mod-Ctrl-c remove
+hc keybind $Mod-q close_or_remove
+hc keybind $Mod-Return spawn ${TERMINAL:-st} # use your $TERMINAL with xterm as fallback
+hc keybind $Mod-w spawn firefox
+#hc keybind Super_L spawn rofi -show run -font "roboto 18"
+hc keybind $Mod-space spawn rofi -show run -font "roboto 18"
+hc keybind $Mod-p spawn passmenu
+
+# power controls
+hc keybind $Mod-delete sudo bash -c 'echo mem > /sys/power/state'
+
+
+# basic movement
+# focusing clients
+hc keybind $Mod-h     focus left
+hc keybind $Mod-j     focus down
+hc keybind $Mod-k     focus up
+hc keybind $Mod-l     focus right
+
+# moving clients
+hc keybind $Mod-Shift-h     shift left
+hc keybind $Mod-Shift-j     shift down
+hc keybind $Mod-Shift-k     shift up
+hc keybind $Mod-Shift-l     shift right
+
+l# splitting frames
+# create an empty frame at the specified direction
+hc keybind $Mod-u       split   bottom  0.5
+hc keybind $Mod-o       split   right   0.5
+# let the current frame explode into subframes
+hc keybind $Mod-Control-space split explode
+
+# resizing frames
+resizestep=0.05
+hc keybind $Mod-Control-h       resize left +$resizestep
+hc keybind $Mod-Control-j       resize down +$resizestep
+hc keybind $Mod-Control-k       resize up +$resizestep
+hc keybind $Mod-Control-l       resize right +$resizestep
+hc keybind $Mod-Control-Left    resize left +$resizestep
+hc keybind $Mod-Control-Down    resize down +$resizestep
+hc keybind $Mod-Control-Up      resize up +$resizestep
+hc keybind $Mod-Control-Right   resize right +$resizestep
+
+# tags
+tag_names=( "Web" "Term" "Media" "Games" "VM" )
+tag_keys=( {1,2,3,4,5} 0 )
+
+hc rename default "${tag_names[0]}" || true
+for i in ${!tag_names[@]} ; do
+    hc add "${tag_names[$i]}"
+    key="${tag_keys[$i]}"
+    if ! [ -z "$key" ] ; then
+        hc keybind "$Mod-$key" use_index "$i"
+        hc keybind "$Mod-Shift-$key" move_index "$i"
+    fi
+done
+
+
+
+# per-tag layouting
+
+hc load Web '
+(clients max:0 0x1800010)
+'
+
+hc load Term '
+(split horizontal:0.500000:0
+ (clients max:0 0x1e0000a)
+ (clients max:0 0x200000a))
+'
+
+hc load Work '
+(split horizontal:0.700000:0
+ (clients max:1 0x1000007 0x4e0000a)
+ (split vertical:0.500000:1
+ (clients max:0 0xa02e1d)
+ (clients max:0 0xa02af3)))
+'
+
+hc load Games  '
+(split horizontal:0.300000:1
+ (split vertical:0.800000:0
+ (clients max:0 0x22002ad)
+ (clients max:0 0x2200003))
+ (clients max:0))
+'
+
+hc load Media '
+(split horizontal:0.400000:0
+ (split vertical:0.750000:0
+ (clients max:0 0x2600001)
+ (clients vertical:0))
+ (split vertical:0.350000:1 
+(clients vertical:0)
+ (clients max:0)))
+'
+
+
+# cycle through tags
+hc keybind $Mod-period use_index +1 --skip-visible
+hc keybind $Mod-comma  use_index -1 --skip-visible
+
+# layouting
+hc keybind $Mod-s floating toggle
+hc keybind $Mod-f fullscreen toggle
+hc keybind $Mod-t pseudotile toggle
+# The following cycles through the available layouts within a frame, but skips
+# layouts, if the layout change wouldn't affect the actual window positions.
+# I.e. if there are two windows within a frame, the grid layout is skipped.
+hc keybind $Mod-Alt-space                                                       \
+            or , and . compare tags.focus.curframe_wcount = 2                   \
+                     . cycle_layout +1 vertical horizontal max vertical grid    \
+               , cycle_layout +1
+
+# mouse
+hc mouseunbind --all
+hc mousebind $Mod-Button1 move
+hc mousebind $Mod-Button2 zoom
+hc mousebind $Mod-Button3 resize
+
+# focus
+hc keybind $Mod-BackSpace   cycle_monitor
+hc keybind $Mod-Tab         cycle_all +1
+hc keybind $Mod-Shift-Tab   cycle_all -1
+#hc keybind $Mod-c cycle
+hc keybind $Mod-i jumpto urgent
+
+# theme
+hc attr theme.tiling.reset 1
+hc attr theme.floating.reset 1
+hc set frame_border_active_color '#b4c6cc' #blue
+hc set frame_border_normal_color '#02222c' # dzen bar bg and inactive window outline
+hc set frame_bg_normal_color '#021f28' #inactive frame
+hc set frame_bg_active_color '#008c90' #acive frame
+hc set window_border_active_color '#008c90' #purple
+hc set window_border_normal_color '#021f28' #pink
+hc set frame_border_width 1
+hc set always_show_frame 1
+hc set frame_bg_transparent 1
+hc set frame_transparent_width 3
+hc set frame_gap 6
+
+#hc attr theme.active.color '#3f8c73'
+#hc attr theme.normal.color '#262626'
+hc attr theme.urgent.color orange
+hc attr theme.inner_width 1
+hc attr theme.inner_color black
+hc attr theme.border_width 3
+hc attr theme.floating.border_width 3
+hc attr theme.floating.outer_width 1
+hc attr theme.floating.outer_color black
+#hc attr theme.active.inner_color '#3E4A00'
+#hc attr theme.active.outer_color '#3E4A00'
+#hc attr theme.background_color '#141414'
+
+hc set window_gap 0
+hc set frame_padding 0
+hc set smart_window_surroundings 0
+hc set smart_frame_surroundings 1
+hc set mouse_recenter_gap 0
+
+# rules
+hc unrule -F
+#hc rule class=XTerm tag=3 # move all xterms to tag 3
+hc rule focus=on # normally focus new clients
+#hc rule focus=off # normally do not focus new clients
+# give focus to most common terminals
+#hc rule class~'(.*[Rr]xvt.*|.*[Tt]erm|Konsole)' focus=on
+hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' pseudotile=on
+hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on
+hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off
+hc rule class=Steam tag=WEB index=11 pseudotile=off
+#hc rule class=Steam WM_NAME(UTF8_STRING) = "Friends List" index=00
+#hc rule class=Steam WM_NAME(UTF8_STRING) = "Steam" index=11
+# center all other gimp windows on gimp tag
+hc rule class=Gimp tag=IMG index=01 pseudotile=on
+hc rule class=Gimp windowrole~'gimp-(image-window|toolbox|dock)' \
+pseudotile=off
+hc rule class=Gimp windowrole=gimp-toolbox focus=off index=00
+hc rule class=Gimp windowrole=gimp-dock focus=off index=1
+
+hc set tree_style '╾│ ├└╼─┐'
+
+# unlock, just to be sure
+hc unlock
+
+# do multi monitor setup here, e.g.:
+# hc set_monitors 1280x1024+0+0 1280x1024+1280+0
+# or simply:
+# hc detect_monitors
+
+# find the panel
+panel=~/.config/herbstluftwm/panel.sh
+[ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
+for monitor in $(herbstclient list_monitors | cut -d: -f1) ; do
+    # start it on each monitor
+    "$panel" $monitor &
+done
+
+### Media Controls ###
+
+hc keybind XF86AudioRaiseVolume spawn $HOME/.config/dunst/volume.sh up
+hc keybind XF86AudioLowerVolume spawn $HOME/.config/dunst/volume.sh down
+#hc keybind XF86AudioMute spawn sound_volume_change_wrapper.sh m
+
+### Autostart Programs ###
+
+compton &
+mpd &
+/opt/urserver/urserver-start --no-manager --no-notify &
+unclutter &
+xrandr --output DisplayPort-0 --auto & xrandr --output HDMI-A-1 --off &
+feh --bg-fill $HOME/.wallpaper.jpg &
+#/home/cabe/.config/polybar/launch.sh &

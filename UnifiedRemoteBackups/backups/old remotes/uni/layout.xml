@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <row>
+		<button text="switch screen" ontap="switchpc" />
+        <button text="switch projector" ontap="switchprojector" />               
+        <button text="Jriver" ontap="jlaunch" /> 
+     </row>
+</layout>

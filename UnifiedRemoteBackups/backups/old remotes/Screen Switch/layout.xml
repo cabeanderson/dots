@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout onVolumeUp="volume_up" onVolumeDown="volume_down">
+	<row>
+		<button text="PC Screen" ontap="switchpc" />
+	</row>
+</layout>

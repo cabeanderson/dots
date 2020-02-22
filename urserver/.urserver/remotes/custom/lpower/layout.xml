@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout color="#424254">
+  <row weight="10">
+    <grid weight="5">
+      <row>
+	    <button icon="power" ontap="power" color="#cc2a41"/>
+            <button text="sleep" ontap="sleep" />
+	  </row>
+	  <row>
+            <button text="restart" ontap="restart"/>
+	    <button text="wake" ontap="@wol" />
+	  </row>
+	</grid>	
+	<grid weight="7">
+	  <row>
+            <button text="projector on" ontap="pause" weight="1.25" color="#64908a"/>
+	    <button text="screen on" ontap="monitoron" />
+	  </row>
+	  <row>
+            <button text="eco screen" ontap="stop" weight="1.25" color="#cc2a41"/>
+	    <button text="screen off" ontap="monitoroff" />	    
+	  </row>
+	</grid>
+      </row>
+      <space weight="1"/>
+	<row weight="15">
+	  <space weight="1"/>
+	  <grid weight="13">
+	    <row weight="2">
+	      <button text="snap left" ontap="sleft" />
+	      <button text="snap right" ontap="sright" />
+	      <button icon="more" ontap="input" />
+	    </row>
+	    <row weight="2">
+              <button text="enter" ontap="enter" />
+              <button text="jump back" ontap="jumpb" />
+              <button text="jump forward" ontap="jumpf" />
+	    </row>
+	    <row weight="2">
+        	<button text="forward" ontap="forward" />
+        	<button text="last tab" ontap="last_tab" />
+	        <button text="close tab" ontap="close_tab" />
+	    </row>
+	  </grid>
+	<space weight="1"/>
+	</row>
+	<space weight="1"/>
+	<row weight="3">
+	  <button icon="vdown" ontap="vol_down" />
+	  <button icon="vmute" ontap="mute" />    
+	  <button icon="vup" ontap="vol_up" />
+	  <button icon="find" ontap="find" />
+	</row>
+</layout>
+

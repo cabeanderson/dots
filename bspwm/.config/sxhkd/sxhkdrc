@@ -1,0 +1,169 @@
+# cabes SXHKDRC File
+
+#______ Program hotkeys ______
+
+# terminal emulator
+super + Return
+	st
+# program launcher and ssh
+#@super_l
+#	rofi -show run -font "roboto 22"
+# program launcher and ssh
+super + @space
+	rofi -show run -font "roboto 22"
+# password manager
+super + p 
+	passmenu -i -fn "Roboto:regular:size=14" -nb "#01090c" -nf "#d8dee9" -sb "#555555" -sf "#5fb3b3" 
+# web browser
+super + w 
+	firefox
+# file browser
+super + r 
+	st -e nnn
+# terminal music player
+super + n 
+	st -e ncmpcpp
+# terminal rss reader
+super + ctrl + n 
+	st -e newsboat
+# display time
+super + alt + t 
+	/home/cabe/.config/dunst/fonky.sh
+# display heads up
+super + button4
+	/home/cabe/.config/dunst/fonky.sh
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd && notify-send -i system-settings "sxhkd config" "Reloaded key bindings"
+
+#_____ MONITOR CONTROLS ______
+
+# Switch to Desktop
+super + ctrl + Up
+	xrandr --output DisplayPort-0 --auto --output HDMI-A-1 --off &
+# Switch to Projector
+super + ctrl + Down
+	xrandr --output HDMI-A-1 --auto --output DisplayPort-0 --off &
+	
+#_____ bspwm hotkeys _____
+
+# quit bspwm normally
+super + alt + Escape
+	bspc quit
+# close and kill
+super + {_,shift + }q
+	bspc node -{c,k}
+# alternate between the tiled and monocle layout
+super + m
+	bspc desktop -l next
+# send the newest marked node to the newest preselected node
+super + y
+	bspc node newest.marked.local -n newest.!automatic.local
+# swap the current node and the biggest node
+super + g
+	bspc node -s biggest
+
+#_____ state/flags ______
+
+# set the window state
+super + {t,shift + t,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+# set the node flags
+super + ctrl + {m,x,y,z}
+	bspc node -g {marked,locked,sticky,private}
+
+#______ focus/swap ______
+
+# focus the node in the given direction
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+# focus the node for the given path jump
+super + {p,b,comma,period}
+	bspc node -f @{parent,brother,first,second}
+# focus the next/previous node in the current desktop
+super + {_,shift + }c
+	bspc node -f {next,prev}.local
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+# focus the last node/desktop
+super + {grave,Tab}
+	bspc {node,desktop} -f last
+# focus the older or newer node in the focus history
+super + {o,i}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+#______ preselect the direction _______
+
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+# preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+# cancel the preselection for the focused node
+super + ctrl + space
+	bspc node -p cancel
+# cancel the preselection for the focused desktop
+super + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+#______ move/resize ______
+
+# expand a window by moving one of its side outward
+super + alt + {h,j,k,l}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+# contract a window by moving one of its side inward
+super + alt + shift + {h,j,k,l}
+	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+# move a floating window
+super + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+#______ Custom Keys ______
+
+# Play/Pause
+XF86AudioPlay
+	mpc toggle
+# Next
+XF86AudioNext
+	mpc next
+# Previous
+XF86AudioPrev
+	mpc prev
+# Volume Up
+XF86AudioRaiseVolume
+#	amixer set Master 2dB+
+	/home/cabe/.config/dunst/volume.sh up
+# Volume Down
+XF86AudioLowerVolume
+#	amixer set Master 2dB-
+	/home/cabe/.config/dunst/volume.sh down
+# Mute
+XF86AudioMute
+#	amixer set Master toggle
+	/home/cabe/.config/dunst/volume.sh mute
+
+# pointer focus/move/resize
+
+
+# focus
+#~button1
+#	bspc pointer -g focus
+#super + button1
+#	firefox
+
+#______ manipulate windows with mouse ______
+
+start move/resize
+super + button{1-3}
+	bspc pointer -g {move,resize_side,resize_corner}
+super + !button{1-3}
+	bspc pointer -t %i, %i
+end move/resize
+super + @button{1-3}
+	bspc pointer -u

@@ -1,0 +1,106 @@
+* {
+    /* --- */
+    background: rgb(1, 9, 12);
+    foreground: rgb(255, 255, 255);
+
+    /* --- */
+    urgent-background: rgb(77, 31, 37);
+    active-background: rgb(19, 55, 35);
+    selected-background: rgb(8, 94, 94);
+    normal-background: rgb(246, 246, 247);
+    entry-background: rgb(35, 38, 41);
+
+    /* --- */
+    background-color: @background;
+    text-color: @foreground;
+    font: "Roboto 18";
+    hide-scrollbar: "true";
+}
+
+#window {
+    background-color: @background;
+    padding: 7;
+    location: west;
+    anchor: west;
+    height: 100%;
+    width: 480px;
+}
+
+#mainbox {
+    border:  0;
+    padding: 0;
+    spacing: 0.8em;
+}
+
+#message {
+    padding: 5;
+    background-color: @entry-background;
+}
+
+#textbox {
+    background-color: @entry-background;
+}
+
+#listview {
+    fixed-height: 0;
+    spacing: 0.5em;
+    scrollbar: false;
+    padding: 2 0 0;
+}
+
+#element {
+    padding: 5;
+}
+
+#element.normal.normal {
+    background-color: @background;
+}
+
+#element.normal.urgent {
+    background-color: @urgent-background;
+}
+
+#element.normal.active {
+    background-color: @active-background;
+}
+
+#element.selected.normal {
+    background-color:   @selected-background;
+}
+
+#element.selected.urgent {
+    background-color: @urgent-background;
+}
+
+#element.selected.active {
+    background-color: @active-background;
+}
+
+#mode-switcher {
+    spacing: 0;
+}
+
+#button {
+    padding: 3;
+}
+
+#button.selected {
+}
+
+#inputbar {
+    spacing:    6px;
+    text-color: @foreground;
+    padding:    6px;
+}
+
+#entry {
+    text-color: @foreground;
+    background-color: @entry-background;
+    padding: 6px;
+}
+
+#prompt {
+    padding: 3 7 3 0;
+    text-color: @foreground;
+}
+

@@ -1,0 +1,23 @@
+# unnecessary directories
+- /dev/*
+- /mnt/*
+- /proc/*
+- /sys/*
+- /tmp/*
+- /run/*
+- /media
+- /lost+found
+- /usr/share/man/*
+
+# NAS folders
+- /home/cabe/Downloads
+- /home/cabe/Nas_Docs
+- /home/cabe/Movies
+- /home/cabe/Music
+- /home/cabe/Tv_Shows
+- /home/cabe/VM
+
+# temp and cache files
+- /home/cabe/.cache/mozilla
+- *.tmp
+- *.temp
